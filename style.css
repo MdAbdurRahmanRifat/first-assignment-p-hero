@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700;800&family=Rubik+Burned&display=swap");
+
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+/* frist section styling st  */
+.header {
+  background: rgba(229, 84, 115, 0.1);
+}
+.frist-section-cotainer {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+/* left side style st */
+.first-section-left {
+  max-width: 650px;
+  padding: 197px 240px;
+  padding-bottom: 0px;
+}
+/* h1  */
+.frist-section-heading {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+}
+/* section one paragraph  */
+.first-section-paragraph {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 32px;
+}
+/* frist button  */
+.first-section-btn {
+    border: none;
+    color: white;
+    padding: 20px 43px;
+    margin-top: 32px;
+    border-radius: 8px;
+    background: #e55473;
+}
+/* left side style end  */
+/* right side style st  */
+img{
+    max-width: 573px;
+    margin-top: 106px;
+    margin-right: 146px;
+}
+/* right side style end  */
+
+/* frist section styling end  */

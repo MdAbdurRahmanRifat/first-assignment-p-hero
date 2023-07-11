@@ -186,52 +186,60 @@ img {
 /* third section style end   */
 
 /* personal section style start  */
-.personal{
-  margin: 0 200px;
-}
-.hdf {
-  width: 250px;
-  padding-bottom: 57px;
-  padding-top: 40px;
-}
-.personal-sec-container{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  box-shadow: 3px 3px 12px 7px rgba(0,0,0,0.46);
-  margin-top: 90px;
-  margin-bottom: 90px;
-  
-}
-.pr-two{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color:whitesmoke;
-  gap: 30px;
-  padding: 60px;
-}
-.para{
-  max-width: 280px;
-  background-color: white;
-  box-shadow: -8px 11px 17px -7px rgba(0,0,0,0.75);
-  padding: 40px;
-  transition: 2s;
-  font-size: 18px;
-  font-weight: 400;
-}
-.para:hover{
-  background-color: #e55473;
-  color: white;
-}
-.personal-h{
-  padding-top: 35px;
-  text-align: center;
-  background-color:whitesmoke;
-  font-size: 35px;
-  color: #e55473;
+.card-section {
+  margin-top: 150px;
 }
 
+.card-section-container {
+  display: flex;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  justify-content: space-between;
+  gap: 5px;
+  width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.card-section-child-one {
+  max-width: 300px;
+  margin: 0;
+  padding-top: 7px;
+  background-color: white;
+  padding: 32px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.67);
+}
+.flower-name-heading {
+  text-align: left;
+  color: black;
+  margin: 0;
+  padding-top: 7px;
+  font-size: 38px;
+  padding-right: 40px;
+  font-weight: 700;
+  transition: 1s;
+}
+
+.card-paragraph {
+  text-align: left;
+  margin: 0;
+  color: black;
+  padding-top: 7px;
+  padding-right: 40px;
+}
+.card-button {
+  padding: 10px 12px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #e55473;
+  color: white;
+  font-size: 16px;
+  text-align: left;
+}
+.card-btn-container {
+  text-align: left;
+  padding-top: 15px;
+}
 /* personal section style end  */
 
 /* fourth section style st  */
@@ -363,7 +371,6 @@ input {
   line-height: 30px;
   max-width: 650px;
   margin: 0 auto;
-  
 }
 .copy-right {
   color: rgba(255, 255, 255, 0.4);

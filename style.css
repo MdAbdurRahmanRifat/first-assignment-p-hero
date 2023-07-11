@@ -39,20 +39,103 @@ body {
 }
 /* frist button  */
 .first-section-btn {
-    border: none;
-    color: white;
-    padding: 20px 43px;
-    margin-top: 32px;
-    border-radius: 8px;
-    background: #e55473;
+  border: none;
+  color: white;
+  padding: 20px 43px;
+  margin-top: 32px;
+  border-radius: 8px;
+  background: #e55473;
 }
 /* left side style end  */
 /* right side style st  */
-img{
-    max-width: 573px;
-    margin-top: 106px;
-    margin-right: 146px;
+img {
+  max-width: 573px;
+  margin-top: 106px;
+  margin-right: 146px;
 }
 /* right side style end  */
 
 /* frist section styling end  */
+
+/* second section styling st  */
+
+/* upper first d i v st  */
+.second-section {
+  margin: 0 400px;
+}
+.featured-frist {
+  text-align: center;
+  margin-top: 178px;
+}
+.second-section-headline {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.second-section-paragraph {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  margin: 0 auto;
+  color: #000;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+  max-width: 594px;
+}
+/* upper first d i v end  */
+
+/* lower second div start  */
+.featured-second {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 48px;
+}
+/* 1 st child  */
+.featured-card-one {
+  max-width: 380px;
+  height: 500px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  background-image: url("image/pngwing\ 6.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+/* 2 nd child  */
+.featured-card-two{
+    max-width: 380px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    background-image: url("image/pngwing\ 5.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+/* 3 rd child  */
+.featured-card-three{
+    max-width: 380px;
+    height: 500px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    background-image: url("image/pngwing\ 7.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+/* featured lower text st */
+.featured-lower-t-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.pink-flower-tree{
+    margin-top: 32px;
+    text-decoration-line: underline;
+    
+}
+/* featured lower text end */
+/* lower second div end  */
+
+/* second section styling end  */

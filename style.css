@@ -183,8 +183,56 @@ img {
   padding-bottom: 30px;
   /* padding-top: 29px; */
 }
-
 /* third section style end   */
+
+/* personal section style start  */
+.personal{
+  margin: 0 200px;
+}
+.hdf {
+  width: 250px;
+  padding-bottom: 57px;
+  padding-top: 40px;
+}
+.personal-sec-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 3px 3px 12px 7px rgba(0,0,0,0.46);
+  margin-top: 90px;
+  margin-bottom: 90px;
+  
+}
+.pr-two{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:whitesmoke;
+  gap: 30px;
+  padding: 60px;
+}
+.para{
+  max-width: 280px;
+  background-color: white;
+  box-shadow: -8px 11px 17px -7px rgba(0,0,0,0.75);
+  padding: 40px;
+  transition: 2s;
+  font-size: 18px;
+  font-weight: 400;
+}
+.para:hover{
+  background-color: #e55473;
+  color: white;
+}
+.personal-h{
+  padding-top: 35px;
+  text-align: center;
+  background-color:whitesmoke;
+  font-size: 35px;
+  color: #e55473;
+}
+
+/* personal section style end  */
 
 /* fourth section style st  */
 /* frist div insta */
